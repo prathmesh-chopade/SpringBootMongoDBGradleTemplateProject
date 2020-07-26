@@ -1,0 +1,98 @@
+*****MongoDB**************
+Database name = legostore
+collection name = legosets
+
+[
+    {
+        "name": "Millennium Falcon",
+        "difficulty": "HARD",
+        "theme": "Star Wars",
+        "reviews": [
+            {
+                "userName": "Dan",
+                "rating": 7
+            },
+            {
+                "userName": "Anna",
+                "rating": 10
+            },
+            {
+                "userName": "John",
+                "rating": 8
+            }
+        ],
+        "deliveryInfo": {
+            "deliveryDate": "2020-07-27",
+            "deliveryFee": 30,
+            "inStock": true
+        },
+        "nbParts": 10
+    },
+    {
+        "name": "Sky Police Air Base",
+        "difficulty": "MEDIUM",
+        "theme": "City",
+        "reviews": [
+            {
+                "userName": "Dan",
+                "rating": 5
+            },
+            {
+                "userName": "Andrew",
+                "rating": 8
+            }
+        ],
+        "deliveryInfo": {
+            "deliveryDate": "2020-07-29",
+            "deliveryFee": 50,
+            "inStock": true
+        },
+        "nbParts": 0
+    },
+    {
+        "name": "McLaren Senna",
+        "difficulty": "EASY",
+        "theme": "Speed Champions",
+        "reviews": [
+            {
+                "userName": "Bogdan",
+                "rating": 9
+            },
+            {
+                "userName": "Christa",
+                "rating": 9
+            }
+        ],
+        "deliveryInfo": {
+            "deliveryDate": "2020-08-02",
+            "deliveryFee": 70,
+            "inStock": false
+        },
+        "nbParts": 100
+    },
+    {
+        "name": "MINDSTORMS EV3",
+        "difficulty": "HARD",
+        "theme": "Mindstorms",
+        "reviews": [
+            {
+                "userName": "Cosmin",
+                "rating": 10
+            },
+            {
+                "userName": "Jane",
+                "rating": 9
+            },
+            {
+                "userName": "James",
+                "rating": 10
+            }
+        ],
+        "deliveryInfo": {
+            "deliveryDate": "2020-08-05",
+            "deliveryFee": 100,
+            "inStock": false
+        },
+        "nbParts": 200
+    }
+]
